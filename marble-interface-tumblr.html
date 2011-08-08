@@ -6,575 +6,575 @@
   <!-- Marble Interface Tumblr theme 
                   by Art In Reality, LLC -->
 
-<head>
+  <head>
 
-	<meta name="image:Background" content="http://static.tumblr.com/w2dkoie/IqYlm1amu/bg-marble.jpg" />
-	<meta name="image:Large Logo" content="http://static.tumblr.com/osyjtd8/TzPllzhhz/logo656.png" />
-	<meta name="text:Tumblr Username" content="marbleinterface" />
+    <meta name="image:Background" content="http://static.tumblr.com/w2dkoie/IqYlm1amu/bg-marble.jpg" />
+    <meta name="image:Large Logo" content="http://static.tumblr.com/osyjtd8/TzPllzhhz/logo656.png" />
+    <meta name="text:Tumblr Username" content="marbleinterface" />
     <meta name="text:Facebook Link" content="http://www.facebook.com/pages/Art-In-Reality-LLC/198390323529883?sk=app_237596692928655" />
     <meta name="text:Twitter Link" content="http://www.twitter.com/artinreality" />
     <meta name="text:LinkedIn Link" content="http://www.linkedin.com/profile/view?id=41910439" />
     <meta name="text:GooglePlus Link" content="https://profiles.google.com/107765208027491700741" />
-	<meta name="if:UseCufon" content="1"/>
-    <meta name="text:Analytics UA" content="UA-3831746-7" />
-	
-	<title>{Title}</title>
+    <meta name="if:UseCufon" content="1"/>
+    <meta name="text:Analytics UA" content="UA-0000000-0" />
 
-	<link rel="shortcut icon" href="{Favicon}" />
-	<link rel="alternate" type="application/rss+xml" href="{RSS}" />
-	<link rel="stylesheet" href="stylesheet.css" type="text/css" media="screen" />
-	
-  {block:Description}
+    <title>{Title}</title>
+
+    <link rel="shortcut icon" href="{Favicon}" />
+    <link rel="alternate" type="application/rss+xml" href="{RSS}" />
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" media="screen" />
+
+    {block:Description}
     <meta name="description" content="{MetaDescription}" />
-  {/block:Description}
+    {/block:Description}
 	{block:IfUseCufon}
-	<script src="http://static.tumblr.com/osyjtd8/JLQllzrsd/cufon.js" type="text/javascript"></script>
-	<script src="http://static.tumblr.com/osyjtd8/wWVllzrwo/sansation_700.font.js" type="text/javascript"></script>
+    <script src="http://static.tumblr.com/osyjtd8/JLQllzrsd/cufon.js" type="text/javascript"></script>
+    <script src="http://static.tumblr.com/osyjtd8/wWVllzrwo/sansation_700.font.js" type="text/javascript"></script>
 	{/block:IfUseCufon}
-	<style type="text/css">
-    :focus {
-    -moz-outline-style:none;
-    }
-
-    * {
-    outline:none;
-    border:0;
-    }
-
-    body {
-    background:url({image:Background}) repeat;
-    margin:0;
-    padding:0;
-    }
-
-    .tags a:hover {
-    color:#212000;
-    font-weight:700;
-    }
-
-    .post a:hover {
-    color:#D3D9AF;
-    text-decoration:none;
-    }
-
-    #top_bar {
-    width:100%;
-    height:34px;
-    background:url(http://static.tumblr.com/osyjtd8/ud1llzgs4/grad-headers.png) repeat-x;
-    position:relative;
-    top:0;
-    font-family:Arial, sans-serif;
-    font-size:12px;
-    font-weight:700;
-    color:#d3d9af;
-    text-shadow:2px 2px 2px #111;
-    margin:0;
-    padding:0;
-    }
-
-    #top_bar_content {
-    position:relative;
-    width:840px;
-    margin:0 auto;
-    }
-
-    ul#top_nav {
-    list-style:none;
-    float:right;
-    height:26px;
-    margin:0;
-    }
-
-    ul#top_nav li {
-    display:inline;
-    }
-
-    ul#top_nav span {
-    position:relative;
-    top:-4px;
-    height:26px;
-    }
-
-    img#random {
-    background:url(http://static.tumblr.com/osyjtd8/u6bllzh21/sprite-icons.png) -22px 0 no-repeat;
-    }
-
-    img#archive {
-    background:url(http://static.tumblr.com/osyjtd8/u6bllzh21/sprite-icons.png) -44px 0 no-repeat;
-    }
-
-    p#follow {
-    position:absolute;
-    top:0;
-    left:0;
-    margin:0;
-    }
-
-    p#follow span {
-    line-height:26px;
-    position:absolute;
-    top:0;
-    left:22px;
-    width:125px;
-    padding:0;
-    }
-
-    p#follow img {
-    background:url(http://static.tumblr.com/osyjtd8/u6bllzh21/sprite-icons.png) 0 0 no-repeat;
-    }
-
-    div#container {
-    width:840px;
-    height:auto;
-    margin:0 auto;
-    }
-
-    div#page_title {
-    height:48px;
-    padding:24px 0;
-    }
-
-    div#sidebar {
-    width:168px;
-    float:left;
-    position:relative;
-    }
-
-    #sidebar_head {
-    height:51px;
-    background:url(http://static.tumblr.com/w2dkoie/3colpjasy/sprite-sidebar.png) 0 0 no-repeat;
-    }
-
-    #sidebar_body {
-    background:url(http://static.tumblr.com/w2dkoie/3colpjasy/sprite-sidebar.png) -168px 0 repeat-y;
-    }
-
-    #sidebar_foot {
-    background:url(http://static.tumblr.com/w2dkoie/3colpjasy/sprite-sidebar.png) -336px 0 no-repeat;
-    height:51px;
-    }
-
-    #sidebar #search {
-    background:url(http://static.tumblr.com/osyjtd8/C9Cllzqtf/sprite-input169.png) 0 0 no-repeat;
-    height:38px;
-    margin-top:-10px;
-    }
-
-    #search #q {
-    background:none;
-    border:0;
-    width:124px;
-    line-height:26px;
-    float:left;
-    margin:4px 7px 4px 8px;
-    }
-
-    #search #go {
-    background:url(http://static.tumblr.com/osyjtd8/u6bllzh21/sprite-icons.png) -132px 0 no-repeat;
-    cursor:pointer;
-    width:22px;
-    height:22px;
-    border:0;
-    float:left;
-    margin:6px 2px;
-    }
-
-    ul#social {
-    height:32px;
-    width:160px;
-    overflow:hidden;
-    margin:10px auto 0;
-    padding:0;
-    }
-
-    ul#social li {
-    width:32px;
-    height:32px;
-    float:left;
-    list-style:none;
-    text-indent:-9999px;
-    margin:0 4px;
-    }
-
-    li#facebook {
-    background:url(http://static.tumblr.com/w2dkoie/Huelpjau8/sprite-social.png) 0 0 no-repeat;
-    }
-
-    li#twitter {
-    background:url(http://static.tumblr.com/w2dkoie/Huelpjau8/sprite-social.png) -32px 0 no-repeat;
-    }
-
-    li#linkedin {
-    background:url(http://static.tumblr.com/w2dkoie/Huelpjau8/sprite-social.png) -64px 0 no-repeat;
-    }
-
-    li#googleplus {
-    background:url(http://static.tumblr.com/w2dkoie/Huelpjau8/sprite-social.png) -96px 0 no-repeat;
-    }
-
-    a.opt {
-    display:block;
-    width:100%;
-    height:100%;
-    }
-
-    #rss img {
-    background:url(http://static.tumblr.com/osyjtd8/u6bllzh21/sprite-icons.png) -66px 0 no-repeat!important;
-    position:absolute;
-    right:4px;
-    top:3px;
-    }
-
-    #sidebar #avatar {
-    border:1px solid #222;
-    margin:0 20px 14px;
-    padding:0;
-    }
-
-    #sidebar #description {
-    width:128px;
-    font-size:14px;
-    text-align:left;
-    font-family:Verdana, sans-serif;
-    margin:0 auto;
-    padding:0;
-    }
-
-    div#main {
-    width:548px;
-    float:right;
-    }
-
-    p.meta {
-    color:#d3d9af!important;
-    width:68px!important;
-    height:104px!important;
-    float:left!important;
-    font-family:Courier New, Courier, Mono!important;
-    font-weight:700!important;
-    font-size:29px!important;
-    text-align:right!important;
-    text-transform:uppercase!important;
-    margin:0 0 0 -82px !important;
-    padding:0 8px 0 0 !important;
-    }
-
-    p.meta span {
-    display:block;
-    color:#fefefe;
-    }
-
-    div.post {
-    width:548px;
-    }
-
-    .post_head {
-    height:51px;
-    width:100%;
-    background:url(http://static.tumblr.com/w2dkoie/8UUlpjatq/sprite-posts.png) 0 0 no-repeat;
-    }
-
-    .post_body {
-    height:auto;
-    width:100%;
-    background:url(http://static.tumblr.com/w2dkoie/8UUlpjatq/sprite-posts.png) -548px 0 repeat-y;
-    overflow:hidden;
-    }
-
-    .post_foot {
-    height:51px;
-    width:100%;
-    background:url(http://static.tumblr.com/w2dkoie/8UUlpjatq/sprite-posts.png) -1096px 0 no-repeat;
-    margin:0;
-    padding:0;
-    }
-
-    .post h2 {
-    color:#212000;
-    font-weight:700;
-    text-align:left;
-    margin:0 18px 12px;
-    }
-
-    .post p,.post ul,.post blockquote {
-    font-family:Verdana, sans-serif;
-    font-size:14px;
-    line-height:22px;
-    color:#333;
-    text-align:justify;
-    }
-
-    .post p {
-    margin:0 18px;
-    }
-
-    .post blockquote {
-    font-size:16px;
-    }
-
-    .post .hyperlink {
-    background:#212222;
-    width:532px;
-    margin:6px auto;
-    padding:8px 18px;
-    }
-
-    p.hyperlink a {
-    color:#d3d9af;
-    font-size:12px;
-    line-height:18px;
-    }
-
-    .post .tags {
-    font-size:12px;
-    margin:14px 18px 0;
-    padding:0;
-    }
-
-    .notes-content {
-    display:none;
-    }
-
-    .notes-content ol {
-    width:100%;
-    }
-
-    div.loadingmsg {
-    background:url(http://static.tumblr.com/w2dkoie/fAZlpmfpj/ajaxloader212.gif) no-repeat;
-    width:100px;
-    height:100px;
-    bottom:4px;
-    overflow:hidden;
-    position:relative;
-    text-indent:-9999px;
-    margin:0 auto;
-    }
-
-    .notes-toggler {
-    line-height:29px;
-    height:29px;
-    display:inline;
-    position:absolute;
-    margin:0;
-    padding:0;
-    }
-
-    .notes-toggler span {
-    position:relative;
-    top:0;
-    left:30px;
-    color:#d3d9af;
-    font-family:Verdana, sans-serif;
-    font-size:12px;
-    margin:0;
-    padding:0;
-    }
-
-    .notes-toggler img {
-    background:url(http://static.tumblr.com/osyjtd8/u6bllzh21/sprite-icons.png) -88px 0 no-repeat;
-    display:inline;
-    position:absolute;
-    margin:3px;
-    }
-
-    .photograph {
-    width:500px;
-    border:1px solid #222;
-    margin:8px 22px 12px;
-    }
-
-    p.photo_description {
-    font-size:16px;
-    line-height:22px;
-    margin:0 18px;
-    }
-
-    .audio_profile {
-    overflow:hidden;
-    margin:0 18px;
-    }
-
-    .audio_profile h2 {
-    margin-top:12px;
-    }
-
-    .audio_profile img {
-    float:left;
-    margin-bottom:4px;
-    margin-right:18px;
-    }
-
-    .audio_profile h5 {
-    float:right;
-    width:320px;
-    font-size:18px;
-    font-family:Arial, sans-serif;
-    color:#222;
-    font-weight:400;
-    margin:0;
-    }
-
-    .post .video_holder {
-    position:relative;
-    width:500px;
-    margin:18px auto 8px;
-    }
-
-    p.quote {
-    font-size:16px;
-    line-height:22px;
-    width:500px;
-    margin:0 18px;
-    }
-
-    p.author {
-    font-style:italic;
-    text-align:right;
-    margin-right:32px;
-    font-weight:700;
-    }
-
-    ul.chat {
-    list-style:none;
-    width:500px;
-    margin:0 18px;
-    padding:0;
-    }
-
-    ul.chat span,ul.chat p {
-    display:inline-block;
-    text-align:left!important;
-    margin:0;
-    padding:0;
-    }
-
-    ul.chat span.label {
-    font-weight:700;
-    }
-
-    #pagination {
-    background:url(http://static.tumblr.com/osyjtd8/C9Cllzqtf/sprite-input169.png) 0 -38px no-repeat;
-    width:169px;
-    height:38px;
-    float:right;
-    margin-top:-12px;
-    }
-
-    #pagination p {
-    line-height:31px;
-    padding-left:16px;
-    text-align:center;
-    margin:4px auto;
-    }
-
-    #pagination a {
-    text-decoration:none;
-    color:#212000;
-    padding:3px;
-    }
-
-    #pagination a:hover {
-    text-decoration:none;
-    background:url(http://static.tumblr.com/osyjtd8/ud1llzgs4/grad-headers.png) no-repeat;
-    color:#D3D9AF;
-    padding:3px;
-    }
-
-    #footer {
-    clear:both;
-    }
-
-    #footer p {
-    text-align:right;
-    color:#d3d9af;
-    font-family:Arial, sans-serif;
-    font-size:12px;
-    padding-top:12px;
-    }
-
-    #footer a {
-    color:#d3d9af;
-    text-decoration:underline;
-    }
-
-    #sidebar #avatar,.post iframe,.audio_profile img,.photograph {
-    -moz-box-shadow:3px 3px 1px #555;
-    -webkit-box-shadow:3px 3px 1px #555;
-    box-shadow:3px 3px 1px #555;
-    }
-
-    a,ul#top_nav a:hover,.notes-toggler a,#footer a:hover {
-    text-decoration:none;
-    }
-
-    a:hover,#top_bar a {
-    color:#D3D9AF;
-    }
-
-    .tags a,.tags span,.notes-toggler a:hover {
-    text-decoration:underline;
-    }
-
-    .pagination a,.post a {
-    color:#212000;
-    }
-
-    #top_bar a:hover,.hyperlink a:hover {
-    color:#b7bca7;
-    }
-    
-    {CustomCSS}
-  </style>
-  
-{block:IfUseCufon}
-  <script type="text/javascript">
+    <style type="text/css">
+      :focus {
+        -moz-outline-style:none;
+      }
+
+      * {
+        outline:none;
+        border:0;
+      }
+
+      body {
+        background:url({image:Background}) repeat;
+        margin:0;
+        padding:0;
+      }
+
+      .tags a:hover {
+        color:#212000;
+        font-weight:700;
+      }
+
+      .post a:hover {
+        color:#D3D9AF;
+        text-decoration:none;
+      }
+
+      #top_bar {
+        width:100%;
+        height:34px;
+        background:url(http://static.tumblr.com/osyjtd8/ud1llzgs4/grad-headers.png) repeat-x;
+        position:relative;
+        top:0;
+        font-family:Arial, sans-serif;
+        font-size:12px;
+        font-weight:700;
+        color:#d3d9af;
+        text-shadow:2px 2px 2px #111;
+        margin:0;
+        padding:0;
+      }
+
+      #top_bar_content {
+        position:relative;
+        width:840px;
+        margin:0 auto;
+      }
+
+      ul#top_nav {
+        list-style:none;
+        float:right;
+        height:26px;
+        margin:0;
+      }
+
+      ul#top_nav li {
+        display:inline;
+      }
+
+      ul#top_nav span {
+        position:relative;
+        top:-4px;
+        height:26px;
+      }
+
+      img#random {
+        background:url(http://static.tumblr.com/osyjtd8/u6bllzh21/sprite-icons.png) -22px 0 no-repeat;
+      }
+
+      img#archive {
+        background:url(http://static.tumblr.com/osyjtd8/u6bllzh21/sprite-icons.png) -44px 0 no-repeat;
+      }
+
+      p#follow {
+        position:absolute;
+        top:0;
+        left:0;
+        margin:0;
+      }
+
+      p#follow span {
+        line-height:26px;
+        position:absolute;
+        top:0;
+        left:22px;
+        width:125px;
+        padding:0;
+      }
+
+      p#follow img {
+        background:url(http://static.tumblr.com/osyjtd8/u6bllzh21/sprite-icons.png) 0 0 no-repeat;
+      }
+
+      div#container {
+        width:840px;
+        height:auto;
+        margin:0 auto;
+      }
+
+      div#page_title {
+        height:48px;
+        padding:24px 0;
+      }
+
+      div#sidebar {
+        width:168px;
+        float:left;
+        position:relative;
+      }
+
+      #sidebar_head {
+        height:51px;
+        background:url(http://static.tumblr.com/w2dkoie/3colpjasy/sprite-sidebar.png) 0 0 no-repeat;
+      }
+
+      #sidebar_body {
+        background:url(http://static.tumblr.com/w2dkoie/3colpjasy/sprite-sidebar.png) -168px 0 repeat-y;
+      }
+
+      #sidebar_foot {
+        background:url(http://static.tumblr.com/w2dkoie/3colpjasy/sprite-sidebar.png) -336px 0 no-repeat;
+        height:51px;
+      }
+
+      #sidebar #search {
+        background:url(http://static.tumblr.com/osyjtd8/C9Cllzqtf/sprite-input169.png) 0 0 no-repeat;
+        height:38px;
+        margin-top:-10px;
+      }
+
+      #search #q {
+        background:none;
+        border:0;
+        width:124px;
+        line-height:26px;
+        float:left;
+        margin:4px 7px 4px 8px;
+      }
+
+      #search #go {
+        background:url(http://static.tumblr.com/osyjtd8/u6bllzh21/sprite-icons.png) -132px 0 no-repeat;
+        cursor:pointer;
+        width:22px;
+        height:22px;
+        border:0;
+        float:left;
+        margin:6px 2px;
+      }
+
+      ul#social {
+        height:32px;
+        width:160px;
+        overflow:hidden;
+        margin:10px auto 0;
+        padding:0;
+      }
+
+      ul#social li {
+        width:32px;
+        height:32px;
+        float:left;
+        list-style:none;
+        text-indent:-9999px;
+        margin:0 4px;
+      }
+
+      li#facebook {
+        background:url(http://static.tumblr.com/w2dkoie/Huelpjau8/sprite-social.png) 0 0 no-repeat;
+      }
+
+      li#twitter {
+        background:url(http://static.tumblr.com/w2dkoie/Huelpjau8/sprite-social.png) -32px 0 no-repeat;
+      }
+
+      li#linkedin {
+        background:url(http://static.tumblr.com/w2dkoie/Huelpjau8/sprite-social.png) -64px 0 no-repeat;
+      }
+
+      li#googleplus {
+        background:url(http://static.tumblr.com/w2dkoie/Huelpjau8/sprite-social.png) -96px 0 no-repeat;
+      }
+
+      a.opt {
+        display:block;
+        width:100%;
+        height:100%;
+      }
+
+      #rss img {
+        background:url(http://static.tumblr.com/osyjtd8/u6bllzh21/sprite-icons.png) -66px 0 no-repeat!important;
+        position:absolute;
+        right:4px;
+        top:3px;
+      }
+
+      #sidebar #avatar {
+        border:1px solid #222;
+        margin:0 20px 14px;
+        padding:0;
+      }
+
+      #sidebar #description {
+        width:128px;
+        font-size:14px;
+        text-align:left;
+        font-family:Verdana, sans-serif;
+        margin:0 auto;
+        padding:0;
+      }
+
+      div#main {
+        width:548px;
+        float:right;
+      }
+
+      p.meta {
+        color:#d3d9af!important;
+        width:68px!important;
+        height:104px!important;
+        float:left!important;
+        font-family:Courier New, Courier, Mono!important;
+        font-weight:700!important;
+        font-size:29px!important;
+        text-align:right!important;
+        text-transform:uppercase!important;
+        margin:0 0 0 -82px !important;
+        padding:0 8px 0 0 !important;
+      }
+
+      p.meta span {
+        display:block;
+        color:#fefefe;
+      }
+
+      div.post {
+        width:548px;
+      }
+
+      .post_head {
+        height:51px;
+        width:100%;
+        background:url(http://static.tumblr.com/w2dkoie/8UUlpjatq/sprite-posts.png) 0 0 no-repeat;
+      }
+
+      .post_body {
+        height:auto;
+        width:100%;
+        background:url(http://static.tumblr.com/w2dkoie/8UUlpjatq/sprite-posts.png) -548px 0 repeat-y;
+        overflow:hidden;
+      }
+
+      .post_foot {
+        height:51px;
+        width:100%;
+        background:url(http://static.tumblr.com/w2dkoie/8UUlpjatq/sprite-posts.png) -1096px 0 no-repeat;
+        margin:0;
+        padding:0;
+      }
+
+      .post h2 {
+        color:#212000;
+        font-weight:700;
+        text-align:left;
+        margin:0 18px 12px;
+      }
+
+      .post p,.post ul,.post blockquote {
+        font-family:Verdana, sans-serif;
+        font-size:14px;
+        line-height:22px;
+        color:#333;
+        text-align:justify;
+      }
+
+      .post p {
+        margin:0 18px;
+      }
+
+      .post blockquote {
+        font-size:16px;
+      }
+
+      .post .hyperlink {
+        background:#212222;
+        width:532px;
+        margin:6px auto;
+        padding:8px 18px;
+      }
+
+      p.hyperlink a {
+        color:#d3d9af;
+        font-size:12px;
+        line-height:18px;
+      }
+
+      .post .tags {
+        font-size:12px;
+        margin:14px 18px 0;
+        padding:0;
+      }
+
+      .notes-content {
+        display:none;
+      }
+
+      .notes-content ol {
+        width:100%;
+      }
+
+      div.loadingmsg {
+        background:url(http://static.tumblr.com/w2dkoie/fAZlpmfpj/ajaxloader212.gif) no-repeat;
+        width:100px;
+        height:100px;
+        bottom:4px;
+        overflow:hidden;
+        position:relative;
+        text-indent:-9999px;
+        margin:0 auto;
+      }
+
+      .notes-toggler {
+        line-height:29px;
+        height:29px;
+        display:inline;
+        position:absolute;
+        margin:0;
+        padding:0;
+      }
+
+      .notes-toggler span {
+        position:relative;
+        top:0;
+        left:30px;
+        color:#d3d9af;
+        font-family:Verdana, sans-serif;
+        font-size:12px;
+        margin:0;
+        padding:0;
+      }
+
+      .notes-toggler img {
+        background:url(http://static.tumblr.com/osyjtd8/u6bllzh21/sprite-icons.png) -88px 0 no-repeat;
+        display:inline;
+        position:absolute;
+        margin:3px;
+      }
+
+      .photograph {
+        width:500px;
+        border:1px solid #222;
+        margin:8px 22px 12px;
+      }
+
+      p.photo_description {
+        font-size:16px;
+        line-height:22px;
+        margin:0 18px;
+      }
+
+      .audio_profile {
+        overflow:hidden;
+        margin:0 18px;
+      }
+
+      .audio_profile h2 {
+        margin-top:12px;
+      }
+
+      .audio_profile img {
+        float:left;
+        margin-bottom:4px;
+        margin-right:18px;
+      }
+
+      .audio_profile h5 {
+        float:right;
+        width:320px;
+        font-size:18px;
+        font-family:Arial, sans-serif;
+        color:#222;
+        font-weight:400;
+        margin:0;
+      }
+
+      .post .video_holder {
+        position:relative;
+        width:500px;
+        margin:18px auto 8px;
+      }
+
+      p.quote {
+        font-size:16px;
+        line-height:22px;
+        width:500px;
+        margin:0 18px;
+      }
+
+      p.author {
+        font-style:italic;
+        text-align:right;
+        margin-right:32px;
+        font-weight:700;
+      }
+
+      ul.chat {
+        list-style:none;
+        width:500px;
+        margin:0 18px;
+        padding:0;
+      }
+
+      ul.chat span,ul.chat p {
+        display:inline-block;
+        text-align:left!important;
+        margin:0;
+        padding:0;
+      }
+
+      ul.chat span.label {
+        font-weight:700;
+      }
+
+      #pagination {
+        background:url(http://static.tumblr.com/osyjtd8/C9Cllzqtf/sprite-input169.png) 0 -38px no-repeat;
+        width:169px;
+        height:38px;
+        float:right;
+        margin-top:-12px;
+      }
+
+      #pagination p {
+        line-height:31px;
+        padding-left:16px;
+        text-align:center;
+        margin:4px auto;
+      }
+
+      #pagination a {
+        text-decoration:none;
+        color:#212000;
+        padding:3px;
+      }
+
+      #pagination a:hover {
+        text-decoration:none;
+        background:url(http://static.tumblr.com/osyjtd8/ud1llzgs4/grad-headers.png) no-repeat;
+        color:#D3D9AF;
+        padding:3px;
+      }
+
+      #footer {
+        clear:both;
+      }
+
+      #footer p {
+        text-align:right;
+        color:#d3d9af;
+        font-family:Arial, sans-serif;
+        font-size:12px;
+        padding-top:12px;
+      }
+
+      #footer a {
+        color:#d3d9af;
+        text-decoration:underline;
+      }
+
+      #sidebar #avatar,.post iframe,.audio_profile img,.photograph {
+        -moz-box-shadow:3px 3px 1px #555;
+        -webkit-box-shadow:3px 3px 1px #555;
+        box-shadow:3px 3px 1px #555;
+      }
+
+      a,ul#top_nav a:hover,.notes-toggler a,#footer a:hover {
+        text-decoration:none;
+      }
+
+      a:hover,#top_bar a {
+        color:#D3D9AF;
+      }
+
+      .tags a,.tags span,.notes-toggler a:hover {
+        text-decoration:underline;
+      }
+
+      .pagination a,.post a {
+        color:#212000;
+      }
+
+      #top_bar a:hover,.hyperlink a:hover {
+        color:#b7bca7;
+      }
+
+      {CustomCSS}
+    </style>
+
+    {block:IfUseCufon}
+    <script type="text/javascript">
       Cufon.replace('h2', {
-          color: '#212000'
+        color: '#212000'
       });
       Cufon.replace('span.label', {
-          color: '#212000'
+        color: '#212000'
       });
-  </script>
-{/block:IfUseCufon}
-	
-</head>
+    </script>
+    {/block:IfUseCufon}
 
-<body>
+  </head>
 
-<div id="top_bar">
-  <div id="top_bar_content">
+  <body>
+
+    <div id="top_bar">
+      <div id="top_bar_content">
 	{block:IfTumblrUsername}
-		<p id="follow">
-			<a href="http://tumblr.com/follow/{text:Tumblr Username}" title="Follow {text:Tumblr Username} On Tumblr" >
-			<img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Follow {text:Tumblr Username} on Tumblr" />
-			<span>Follow on Tumblr</span>
-			</a>
-		</p>
+        <p id="follow">
+          <a href="http://tumblr.com/follow/{text:Tumblr Username}" title="Follow {text:Tumblr Username} On Tumblr" >
+            <img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Follow {text:Tumblr Username} on Tumblr" />
+            <span>Follow on Tumblr</span>
+          </a>
+        </p>
 	{/block:IfTumblrUsername}
-		<ul id="top_nav">
-			<li>
-				<a href="http://{text:Tumblr Username}.tumblr.com/random" title="Random Post">
-					<img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" id="random" width="22" height="22" alt="Random Post" />
-					<span>Random Post</span>
-				</a>
-			</li>
-			<li>
-				<a href="http://{text:Tumblr Username}.tumblr.com/archive" title="Post Archive">
-					<img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" id="archive" width="22" height="22" alt="Archive" />
-					<span>Archive</span>
-				</a>
-			</li>
-		</ul>
+        <ul id="top_nav">
+          <li>
+            <a href="http://{text:Tumblr Username}.tumblr.com/random" title="Random Post">
+              <img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" id="random" width="22" height="22" alt="Random Post" />
+              <span>Random Post</span>
+            </a>
+          </li>
+          <li>
+            <a href="http://{text:Tumblr Username}.tumblr.com/archive" title="Post Archive">
+              <img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" id="archive" width="22" height="22" alt="Archive" />
+              <span>Archive</span>
+            </a>
+          </li>
+        </ul>
       </div><!-- end div#top_bar_content -->
-	</div><!-- end div#top_bar -->
-  
-<div id="container">
+    </div><!-- end div#top_bar -->
 
-	<div id="page_title">
-		<img src="{image:Large Logo}" width="656" height="44" alt="{Title}" />
-	</div><!-- div#page_title -->
-	
-	<div id="sidebar">
+    <div id="container">
+
+      <div id="page_title">
+        <img src="{image:Large Logo}" width="656" height="44" alt="{Title}" />
+      </div><!-- div#page_title -->
+
+      <div id="sidebar">
         <div id="sidebar_head">
           <a href="{RSS}" title="RSS" id="rss">
             <img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="RSS" />
@@ -584,17 +584,17 @@
           <img src="{PortraitURL-128}" width="128" height="128" id="avatar" alt="Avatar" />
           {block:Description}
           <p id="description">
-              {Description}
+            {Description}
           </p>
           {/block:Description}
         </div><!-- end div#sidebar_body -->
         <div id="sidebar_foot">&nbsp;</div>
-		<div id="search">
-			<form action="/search" method="get">
-				<input type="text" name="q" id="q" />
-				<input type="submit" value="" id="go" />
-			</form>
-		</div>
+        <div id="search">
+          <form action="/search" method="get">
+            <input type="text" name="q" id="q" />
+            <input type="submit" value="" id="go" />
+          </form>
+        </div>
         <ul id="social">
           {block:IfFacebookLink}
           <li id="facebook">
@@ -618,316 +618,316 @@
           {/block:IfGooglePlusLink}
         </ul>
       </div><!-- div#sidebar -->
-	
-	<div id="main">
-{block:Posts}
+
+      <div id="main">
+        {block:Posts}
 	{block:Text}
-		<div class="post">
-			<p class="meta">
-				<span>{ShortDayOfWeek}</span>
+        <div class="post">
+          <p class="meta">
+            <span>{ShortDayOfWeek}</span>
 				{ShortMonth}<br />
 				{DayOfMonth}
-			</p>
-			<div class="post_head">
+          </p>
+          <div class="post_head">
 				{block:NoteCount}
-				<a href="{PostNotesURL}" rel="{postID}" class="notes-toggler">
-					<img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Notes" />
-					<span>{NoteCountWithLabel}</span>
-				</a	>
+            <a href="{PostNotesURL}" rel="{postID}" class="notes-toggler">
+              <img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Notes" />
+              <span>{NoteCountWithLabel}</span>
+            </a	>
 				{/block:NoteCount}
-			</div>
-            <div class="post_body">
+          </div>
+          <div class="post_body">
 		{block:Title}
-              <h2>{Title}</h2>
+            <h2>{Title}</h2>
 		{/block:Title}
-              <p class="content">
-                  {Body}
-              </p>
-              {block:HasTags}
-              <p class="tags">
-                  <strong>Tags:</strong>
-                  {block:Tags}
-                  <a href="{TagURL}" title="{Tag}">{Tag}</a>
-                  {/block:Tags}
-              </p>
-              {/block:HasTags}
-              <div class="notes-content" id="notes-{postID}">
-                <div class="loadingmsg">Loading...</div>
-                <div class="notes-loader"></div>
-              </div>
-            </div><!-- end div.post_body -->
-            <div class="post_foot">&nbsp;</div>
-		</div><!-- end TEXT div.post -->
+            <p class="content">
+              {Body}
+            </p>
+            {block:HasTags}
+            <p class="tags">
+              <strong>Tags:</strong>
+              {block:Tags}
+              <a href="{TagURL}" title="{Tag}">{Tag}</a>
+              {/block:Tags}
+            </p>
+            {/block:HasTags}
+            <div class="notes-content" id="notes-{postID}">
+              <div class="loadingmsg">Loading...</div>
+              <div class="notes-loader"></div>
+            </div>
+          </div><!-- end div.post_body -->
+          <div class="post_foot">&nbsp;</div>
+        </div><!-- end TEXT div.post -->
 	{/block:Text}
 
 		{block:Photo}
-		<div class="post">
-			<p class="meta">
-				<span>{ShortDayOfWeek}</span>
+        <div class="post">
+          <p class="meta">
+            <span>{ShortDayOfWeek}</span>
 				{ShortMonth}<br />
 				{DayOfMonth}
-			</p>
-			<div class="post_head">
+          </p>
+          <div class="post_head">
 				{block:NoteCount}
-				<a href="{PostNotesURL}" rel="{postID}" class="notes-toggler">
-					<img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Notes" />
-					<span>{NoteCountWithLabel}</span>
-				</a	>
+            <a href="{PostNotesURL}" rel="{postID}" class="notes-toggler">
+              <img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Notes" />
+              <span>{NoteCountWithLabel}</span>
+            </a	>
 				{/block:NoteCount}
-			</div>
-            <div class="post_body">
-              <img src="{PhotoURL-500}" width="500" class="photograph" alt="{PhotoAlt}" />
-              {block:Caption}
-              <p class="photo_description">
-                  {Caption}
-              </p>
-              {/block:Caption}
-              {block:HasTags}
-              <p class="tags">
-                  <strong>Tags:</strong>
-                  {block:Tags}
-                  <a href="{TagURL}" title="{Tag}">{Tag}</a>
-                  {/block:Tags}
-              </p>
-              {/block:HasTags}
-              <div class="notes-content" id="notes-{postID}">
-                <div class="loadingmsg">Loading...</div>
-                <div class="notes-loader"></div>
-              </div>
-            </div><!-- end div.post_body -->
-            <div class="post_foot">&nbsp;</div>
-		</div><!-- end PHOTO div.post -->
+          </div>
+          <div class="post_body">
+            <img src="{PhotoURL-500}" width="500" class="photograph" alt="{PhotoAlt}" />
+            {block:Caption}
+            <p class="photo_description">
+              {Caption}
+            </p>
+            {/block:Caption}
+            {block:HasTags}
+            <p class="tags">
+              <strong>Tags:</strong>
+              {block:Tags}
+              <a href="{TagURL}" title="{Tag}">{Tag}</a>
+              {/block:Tags}
+            </p>
+            {/block:HasTags}
+            <div class="notes-content" id="notes-{postID}">
+              <div class="loadingmsg">Loading...</div>
+              <div class="notes-loader"></div>
+            </div>
+          </div><!-- end div.post_body -->
+          <div class="post_foot">&nbsp;</div>
+        </div><!-- end PHOTO div.post -->
 	{/block:Photo}
-	
+
 	{block:Link}
-		<div class="post">
-			<p class="meta">
-				<span>{ShortDayOfWeek}</span>
+        <div class="post">
+          <p class="meta">
+            <span>{ShortDayOfWeek}</span>
 				{ShortMonth}<br />
 				{DayOfMonth}
-			</p>
-			<div class="post_head">
+          </p>
+          <div class="post_head">
 				{block:NoteCount}
-				<a href="{PostNotesURL}" rel="{postID}" class="notes-toggler">
-					<img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Notes" />
-					<span>{NoteCountWithLabel}</span>
-				</a	>
+            <a href="{PostNotesURL}" rel="{postID}" class="notes-toggler">
+              <img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Notes" />
+              <span>{NoteCountWithLabel}</span>
+            </a	>
 				{/block:NoteCount}
-			</div><!-- end div.post_head -->
-            <div class="post_body">
-              <h2>{Name}</h2>
-              <p class="hyperlink">
-                  <a href="{URL}" title="Someplace Grand!" {Target}>{URL}</a>
-              </p>
-              {block:Description}
-              <p>
-                  {Description}
-              </p>
-              {/block:Description}
-              {block:HasTags}
-              <p class="tags">
-                  <strong>Tags:</strong>
-                  {block:Tags}
-                  <a href="{TagURL}" title="{Tag}">{Tag}</a>
-                  {/block:Tags}
-              </p>
-              {/block:HasTags}
-              <div class="notes-content" id="notes-{postID}">
-                <div class="loadingmsg">Loading...</div>
-                <div class="notes-loader"></div>
-              </div>
-            </div><!-- end div.post_body -->
-            <div class="post_foot">&nbsp;</div>
-		</div><!-- end LINK div.post -->
+          </div><!-- end div.post_head -->
+          <div class="post_body">
+            <h2>{Name}</h2>
+            <p class="hyperlink">
+              <a href="{URL}" title="Someplace Grand!" {Target}>{URL}</a>
+            </p>
+            {block:Description}
+            <p>
+              {Description}
+            </p>
+            {/block:Description}
+            {block:HasTags}
+            <p class="tags">
+              <strong>Tags:</strong>
+              {block:Tags}
+              <a href="{TagURL}" title="{Tag}">{Tag}</a>
+              {/block:Tags}
+            </p>
+            {/block:HasTags}
+            <div class="notes-content" id="notes-{postID}">
+              <div class="loadingmsg">Loading...</div>
+              <div class="notes-loader"></div>
+            </div>
+          </div><!-- end div.post_body -->
+          <div class="post_foot">&nbsp;</div>
+        </div><!-- end LINK div.post -->
 	{/block:Link}
 
 	{block:Audio}
-		<div class="post">
-			<p class="meta">
-				<span>{ShortDayOfWeek}</span>
+        <div class="post">
+          <p class="meta">
+            <span>{ShortDayOfWeek}</span>
 				{ShortMonth}<br />
 				{DayOfMonth}
-			</p>
-			<div class="post_head">
+          </p>
+          <div class="post_head">
 				{block:NoteCount}
-				<a href="{postNotesURL}" rel="{postID}" class="notes-toggler">
-					<img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Notes" />
-					<span>{NoteCountWithLabel}</span>
-				</a	>
+            <a href="{postNotesURL}" rel="{postID}" class="notes-toggler">
+              <img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Notes" />
+              <span>{NoteCountWithLabel}</span>
+            </a	>
 				{/block:NoteCount}
-			</div><!-- end div.post_head -->
-            <div class="post_body">
-              <div class="audio_profile">
-                  {block:AlbumArt}
-                  <img src="{AlbumArtURL}" width="150" height="150" alt="{block:TrackName}{TrackName}{/block:TrackName} by {block:Artist}{Artist}{/block:Artist}" />
-                  {/block:AlbumArt}
-                  <div class="audio_info">
-                      {AudioPlayerBlack}
-                      <p>This track played {PlayCount} times</p>
-                  </div>
-                  {block:Artist}
-                  <h2>{Artist}</h2>
-                  {/block:Artist}
-                  {block:TrackName}
-                  <h5>{TrackName}</h5>
-                  {/block:TrackName}
+          </div><!-- end div.post_head -->
+          <div class="post_body">
+            <div class="audio_profile">
+              {block:AlbumArt}
+              <img src="{AlbumArtURL}" width="150" height="150" alt="{block:TrackName}{TrackName}{/block:TrackName} by {block:Artist}{Artist}{/block:Artist}" />
+              {/block:AlbumArt}
+              <div class="audio_info">
+                {AudioPlayerBlack}
+                <p>This track played {PlayCount} times</p>
               </div>
-              {block:Caption}
-                {Caption}
-              {/block:Caption}
-              {block:HasTags}
-              <p class="tags">
-                  <strong>Tags:</strong>
-                  {block:Tags}
-                  <a href="{TagURL}" title="{Tag}">{Tag}</a>
-                  {/block:Tags}
-              </p>
-              {/block:HasTags}
-              <div class="notes-content" id="notes-{postID}">
-                <div class="loadingmsg">Loading...</div>
-                <div class="notes-loader"></div>
-              </div>
-            </div><!-- end div.post_body -->
-            <div class="post_foot">&nbsp;</div>
+              {block:Artist}
+              <h2>{Artist}</h2>
+              {/block:Artist}
+              {block:TrackName}
+              <h5>{TrackName}</h5>
+              {/block:TrackName}
+            </div>
+            {block:Caption}
+            {Caption}
+            {/block:Caption}
+            {block:HasTags}
+            <p class="tags">
+              <strong>Tags:</strong>
+              {block:Tags}
+              <a href="{TagURL}" title="{Tag}">{Tag}</a>
+              {/block:Tags}
+            </p>
+            {/block:HasTags}
+            <div class="notes-content" id="notes-{postID}">
+              <div class="loadingmsg">Loading...</div>
+              <div class="notes-loader"></div>
+            </div>
+          </div><!-- end div.post_body -->
+          <div class="post_foot">&nbsp;</div>
         </div><!-- end AUDIO div.post -->
 	{/block:Audio}
 
 	{block:Chat}
-		<div class="post">
-			<p class="meta">
-				<span>{ShortDayOfWeek}</span>
+        <div class="post">
+          <p class="meta">
+            <span>{ShortDayOfWeek}</span>
 				{ShortMonth}<br />
 				{DayOfMonth}
-			</p>
-			<div class="post_head">
+          </p>
+          <div class="post_head">
 				{block:NoteCount}
-				<a href="{PostNotesURL}" rel="{postID}" class="notes-toggler">
-					<img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Notes" />
-					<span>{NoteCountWithLabel}</span>
-				</a	>
+            <a href="{PostNotesURL}" rel="{postID}" class="notes-toggler">
+              <img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Notes" />
+              <span>{NoteCountWithLabel}</span>
+            </a	>
 				{/block:NoteCount}
-			</div><!-- end div.post_head -->
-            <div class="post_body">
-              {block:Title}
-                  <h2><a href="{Permalink}">{Title}</a></h2>
-              {/block:Title}
-              <ul class="chat">
+          </div><!-- end div.post_head -->
+          <div class="post_body">
+            {block:Title}
+            <h2><a href="{Permalink}">{Title}</a></h2>
+            {/block:Title}
+            <ul class="chat">
               {block:Lines}
-                  <li class="{Alt}">
-                          {block:Name}<span class="label">{Name}:</span>{/block:Name}
-                          <p>{Line}</p>
-                  </li>
+              <li class="{Alt}">
+                {block:Name}<span class="label">{Name}:</span>{/block:Name}
+                <p>{Line}</p>
+              </li>
               {/block:Lines}
-              </ul>
-              {block:HasTags}
-              <p class="tags">
-                  <strong>Tags:</strong>
-                  {block:Tags}
-                  <a href="{TagURL}" title="{Tag}">{Tag}</a>
-                  {/block:Tags}
-              </p>
-              {/block:HasTags}
-              <div class="notes-content" id="notes-{postID}">
-                <div class="loadingmsg">Loading...</div>
-                <div class="notes-loader"></div>
-              </div>
-            </div><!-- end div.post_body -->
-            <div class="post_foot">&nbsp;</div>
-		</div><!-- end CHAT div.post -->
+            </ul>
+            {block:HasTags}
+            <p class="tags">
+              <strong>Tags:</strong>
+              {block:Tags}
+              <a href="{TagURL}" title="{Tag}">{Tag}</a>
+              {/block:Tags}
+            </p>
+            {/block:HasTags}
+            <div class="notes-content" id="notes-{postID}">
+              <div class="loadingmsg">Loading...</div>
+              <div class="notes-loader"></div>
+            </div>
+          </div><!-- end div.post_body -->
+          <div class="post_foot">&nbsp;</div>
+        </div><!-- end CHAT div.post -->
 	{/block:Chat}
 
 	{block:Video}
-		<div class="post">
-			<p class="meta">
-				<span>{ShortDayOfWeek}</span>
+        <div class="post">
+          <p class="meta">
+            <span>{ShortDayOfWeek}</span>
 				{ShortMonth}<br />
 				{DayOfMonth}
-			</p>
-			<div class="post_head">
+          </p>
+          <div class="post_head">
 				{block:NoteCount}
-				<a href="{PostNotesURL}" rel="{postID}" class="notes-toggler">
-					<img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Notes" />
-					<span>{NoteCountWithLabel}</span>
-				</a	>
+            <a href="{PostNotesURL}" rel="{postID}" class="notes-toggler">
+              <img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Notes" />
+              <span>{NoteCountWithLabel}</span>
+            </a	>
 				{/block:NoteCount}
-			</div><!-- end div.post_head -->
-            <div class="post_body">
-              <div class="video_holder">
-                  {Video-500}
-              </div>
-              {block:Caption}
-                  {Caption}
-              {/block:Caption}
-              {block:HasTags}
-              <p class="tags">
-                  <strong>Tags:</strong>
-                  {block:Tags}
-                  <a href="{TagURL}" title="{Tag}">{Tag}</a>
-                  {/block:Tags}
-              </p>
-              {/block:HasTags}
-              <div class="notes-content" id="notes-{postID}">
-                <div class="loadingmsg">Loading...</div>
-                <div class="notes-loader"></div>
-              </div>
-            </div><!-- end div.post_body -->
-            <div class="post_foot">&nbsp;</div>
-		</div><!-- end VIDEO div.post -->
+          </div><!-- end div.post_head -->
+          <div class="post_body">
+            <div class="video_holder">
+              {Video-500}
+            </div>
+            {block:Caption}
+            {Caption}
+            {/block:Caption}
+            {block:HasTags}
+            <p class="tags">
+              <strong>Tags:</strong>
+              {block:Tags}
+              <a href="{TagURL}" title="{Tag}">{Tag}</a>
+              {/block:Tags}
+            </p>
+            {/block:HasTags}
+            <div class="notes-content" id="notes-{postID}">
+              <div class="loadingmsg">Loading...</div>
+              <div class="notes-loader"></div>
+            </div>
+          </div><!-- end div.post_body -->
+          <div class="post_foot">&nbsp;</div>
+        </div><!-- end VIDEO div.post -->
 	{/block:Video}
 
 	{block:Quote}
-		<div class="post">
-			<p class="meta">
-				<span>{ShortDayOfWeek}</span>
+        <div class="post">
+          <p class="meta">
+            <span>{ShortDayOfWeek}</span>
 				{ShortMonth}<br />
 				{DayOfMonth}
-			</p>
-			<div class="post_head">
+          </p>
+          <div class="post_head">
 				{block:NoteCount}
-				<a href="{postNotesURL}" rel="{postID}" class="notes-toggler">
-					<img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Notes" />
-					<span>{NoteCountWithLabel}</span>
-				</a	>
+            <a href="{postNotesURL}" rel="{postID}" class="notes-toggler">
+              <img src="http://static.tumblr.com/osyjtd8/5VMllzh8l/img_trans.gif" width="22" height="22" alt="Notes" />
+              <span>{NoteCountWithLabel}</span>
+            </a	>
 				{/block:NoteCount}
-			</div><!-- end div.post_head -->
-            <div class="post_body">
-              <p class="quote">{Quote}</p>
-              {block:Source}
-              <p class="author">{Source}</p>
-              {/block:Source}
-              {block:HasTags}
-              <p class="tags">
-                  <strong>Tags:</strong>
-                  {block:Tags}
-                  <a href="{TagURL}" title="{Tag}">{Tag}</a>
-                  {/block:Tags}
-              </p>
-              {/block:HasTags}
-              <div class="notes-content" id="notes-{postID}">
-                <div class="loadingmsg">Loading...</div>
-                <div class="notes-loader"></div>
-              </div>
-            </div><!-- end div.post_body -->
-            <div class="post_foot">&nbsp;</div>
-		</div><!-- end QUOTE div.post -->
+          </div><!-- end div.post_head -->
+          <div class="post_body">
+            <p class="quote">{Quote}</p>
+            {block:Source}
+            <p class="author">{Source}</p>
+            {/block:Source}
+            {block:HasTags}
+            <p class="tags">
+              <strong>Tags:</strong>
+              {block:Tags}
+              <a href="{TagURL}" title="{Tag}">{Tag}</a>
+              {/block:Tags}
+            </p>
+            {/block:HasTags}
+            <div class="notes-content" id="notes-{postID}">
+              <div class="loadingmsg">Loading...</div>
+              <div class="notes-loader"></div>
+            </div>
+          </div><!-- end div.post_body -->
+          <div class="post_foot">&nbsp;</div>
+        </div><!-- end QUOTE div.post -->
 	{/block:Quote}
-{/block:Posts}
+        {/block:Posts}
 
-{block:Pagination}
-		<div id="pagination">
-			<p>
+        {block:Pagination}
+        <div id="pagination">
+          <p>
 		{block:JumpPagination length="5"}
 			{block:CurrentPage}
-				<span class="current_page">{PageNumber}</span>
+            <span class="current_page">{PageNumber}</span>
 			{/block:CurrentPage}
 			{block:JumpPage}
-				<a class="jump_page" href="{URL}">{PageNumber}</a>
+            <a class="jump_page" href="{URL}">{PageNumber}</a>
 			{/block:JumpPage}
 		{/block:JumpPagination}
-			</p>
-		</div>
-{/block:Pagination}
-	
+          </p>
+        </div>
+        {/block:Pagination}
+
         <div id="footer">
           <p>
             Theme by <a href="http://artinreality.com" title="Art In Reality, LLC">Art In Reality, LLC</a>.<br />
@@ -938,12 +938,12 @@
       </div><!-- div#main -->
 
     </div><!-- div#container -->
-    
+
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script type="text/javascript">
       $(function(){$("a.notes-toggler").click(function(b){b.preventDefault();var a=$("#notes-"+$(this).attr("rel"));$("#notes-"+$(this).attr("rel")).slideToggle("slow");$.ajax({url:$(this).attr("href"),success:function(c){a.find(".loadingmsg").hide();a.find(".notes-loader").html(c).slideDown();a.find(".notes-hide").click(function(d){d.preventDefault();a.slideToggle("normal")})}})})});
     </script>
-    
+
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
